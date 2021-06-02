@@ -1,0 +1,145 @@
+11-30 04:25:48.942 I/art     ( 1964): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:25:48.942 I/art     ( 1964): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:25:49.056 I/art     ( 2100): Explicit concurrent mark sweep GC freed 6697(748KB) AllocSpace objects, 0(0B) LOS objects, 67% free, 501KB/1525KB, paused 253us total 6.724ms
+11-30 04:25:49.086 I/art     ( 1485): Explicit concurrent mark sweep GC freed 24946(2MB) AllocSpace objects, 22(1395KB) LOS objects, 30% free, 9MB/13MB, paused 601us total 33.660ms
+11-30 04:25:49.336 I/art     ( 2100): Explicit concurrent mark sweep GC freed 4238(341KB) AllocSpace objects, 0(0B) LOS objects, 67% free, 500KB/1524KB, paused 179us total 6.243ms
+11-30 04:25:49.516 I/art     ( 1964): Background sticky concurrent mark sweep GC freed 992(102KB) AllocSpace objects, 0(0B) LOS objects, 2% free, 7MB/7MB, paused 23.850ms total 50.655ms
+11-30 04:25:49.793 I/art     ( 1964): Background partial concurrent mark sweep GC freed 20957(1569KB) AllocSpace objects, 4(238KB) LOS objects, 39% free, 6MB/10MB, paused 65.703ms total 221.584ms
+11-30 04:25:49.948 I/art     ( 2179): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:25:49.948 I/art     ( 2179): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:25:50.034 I/art     ( 1964): Rejecting re-init on previously-failed class java.lang.Class<mrn>
+11-30 04:25:50.034 I/art     ( 1964): Rejecting re-init on previously-failed class java.lang.Class<mrn>
+11-30 04:25:50.178 I/art     ( 1485): Background sticky concurrent mark sweep GC freed 18981(2MB) AllocSpace objects, 54(1542KB) LOS objects, 16% free, 9MB/11MB, paused 7.669ms total 75.819ms
+11-30 04:25:50.201 I/art     ( 1964): Rejecting re-init on previously-failed class java.lang.Class<aoho>
+11-30 04:25:50.202 I/art     ( 1964): Rejecting re-init on previously-failed class java.lang.Class<aoho>
+11-30 04:25:50.223 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000000@DynamiteLoader_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000000/DynamiteLoader_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:25:50.223 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/data/com.google.android.gms/app_chimera/m/00000000/x86/DynamiteLoader_GmsCore_prodlmp_alldpi_release.odex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000000/DynamiteLoader_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:25:50.278 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3747(178KB) AllocSpace objects, 0(0B) LOS objects, 66% free, 506KB/1530KB, paused 162us total 25.935ms
+11-30 04:25:50.414 I/art     ( 1964): Explicit concurrent mark sweep GC freed 13067(823KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 7MB/11MB, paused 1.745ms total 21.184ms
+11-30 04:25:50.729 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000002@DynamiteModulesA_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000002/DynamiteModulesA_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:25:50.729 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/data/com.google.android.gms/app_chimera/m/00000002/x86/DynamiteModulesA_GmsCore_prodlmp_alldpi_release.odex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000002/DynamiteModulesA_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:25:50.841 I/art     ( 2179): Background partial concurrent mark sweep GC freed 13338(776KB) AllocSpace objects, 11(3MB) LOS objects, 32% free, 8MB/12MB, paused 2.079ms total 111.397ms
+11-30 04:25:50.887 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3456(153KB) AllocSpace objects, 0(0B) LOS objects, 66% free, 505KB/1529KB, paused 134us total 4.743ms
+11-30 04:25:50.980 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3429(152KB) AllocSpace objects, 0(0B) LOS objects, 67% free, 504KB/1528KB, paused 145us total 4.062ms
+11-30 04:25:51.036 I/art     ( 2179): Explicit concurrent mark sweep GC freed 8676(608KB) AllocSpace objects, 6(1794KB) LOS objects, 34% free, 7MB/11MB, paused 973us total 34.748ms
+11-30 04:25:51.051 I/art     ( 1921): Background sticky concurrent mark sweep GC freed 2299(266KB) AllocSpace objects, 0(0B) LOS objects, 26% free, 1026KB/1396KB, paused 6.694ms total 18.844ms
+11-30 04:25:51.139 I/art     ( 2179): Note: end time exceeds epoch:
+11-30 04:25:52.366 I/art     ( 1150): Explicit concurrent mark sweep GC freed 701(30KB) AllocSpace objects, 0(0B) LOS objects, 90% free, 110KB/1134KB, paused 45us total 3.526ms
+11-30 04:25:52.374 I/art     ( 1150): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 90% free, 110KB/1134KB, paused 32us total 2.813ms
+11-30 04:25:52.406 I/art     ( 1150): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 90% free, 110KB/1134KB, paused 32us total 2.713ms
+11-30 04:25:52.892 I/art     ( 1485): Explicit concurrent mark sweep GC freed 29469(2MB) AllocSpace objects, 21(971KB) LOS objects, 29% free, 9MB/13MB, paused 1.427ms total 231.565ms
+11-30 04:25:53.197 I/art     ( 2179): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.common.permission.PermissionUtils$1>
+11-30 04:25:53.455 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3290(149KB) AllocSpace objects, 0(0B) LOS objects, 66% free, 513KB/1537KB, paused 1.068ms total 7.020ms
+11-30 04:25:53.710 I/art     ( 2179): Background sticky concurrent mark sweep GC freed 29366(1959KB) AllocSpace objects, 25(400KB) LOS objects, 18% free, 9MB/11MB, paused 32.452ms total 67.557ms
+11-30 04:25:53.780 I/art     ( 2690): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:25:53.780 I/art     ( 2690): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:25:53.781 I/art     ( 2690): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:25:53.852 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3672(162KB) AllocSpace objects, 0(0B) LOS objects, 66% free, 505KB/1529KB, paused 138us total 4.100ms
+11-30 04:25:54.114 I/art     ( 2743): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:25:54.114 I/art     ( 2743): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:25:54.117 I/art     ( 2743): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:25:54.206 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3546(155KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 504KB/1016KB, paused 42us total 3.988ms
+11-30 04:25:54.312 I/art     ( 1964): Background sticky concurrent mark sweep GC freed 6780(389KB) AllocSpace objects, 0(0B) LOS objects, 3% free, 10MB/10MB, paused 6.202ms total 83.056ms
+11-30 04:25:54.682 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3582(158KB) AllocSpace objects, 0(0B) LOS objects, 67% free, 503KB/1527KB, paused 83us total 7.511ms
+11-30 04:25:54.771 I/art     ( 1485): WaitForGcToComplete blocked for 14.357ms for cause Explicit
+11-30 04:25:54.792 I/art     ( 1485): Explicit concurrent mark sweep GC freed 3782(375KB) AllocSpace objects, 8(176KB) LOS objects, 28% free, 10MB/14MB, paused 251us total 20.442ms
+11-30 04:25:54.842 I/art     ( 2690): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:25:54.842 I/art     ( 2690): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:25:54.925 I/art     ( 2179): Explicit concurrent mark sweep GC freed 47284(2MB) AllocSpace objects, 12(192KB) LOS objects, 28% free, 9MB/13MB, paused 358us total 25.198ms
+11-30 04:25:56.256 I/art     ( 1485): Explicit concurrent mark sweep GC freed 29520(1603KB) AllocSpace objects, 12(470KB) LOS objects, 29% free, 9MB/13MB, paused 193us total 18.881ms
+11-30 04:25:56.331 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000003@DynamiteModulesB_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000003/DynamiteModulesB_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:25:56.331 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/data/com.google.android.gms/app_chimera/m/00000003/x86/DynamiteModulesB_GmsCore_prodlmp_alldpi_release.odex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000003/DynamiteModulesB_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:25:56.546 I/art     ( 2100): Explicit concurrent mark sweep GC freed 11540(649KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 952KB/1976KB, paused 152us total 4.446ms
+11-30 04:25:56.594 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3589(156KB) AllocSpace objects, 0(0B) LOS objects, 52% free, 945KB/1969KB, paused 732us total 4.266ms
+11-30 04:25:56.621 I/art     ( 2179): Explicit concurrent mark sweep GC freed 20119(1227KB) AllocSpace objects, 5(80KB) LOS objects, 27% free, 10MB/14MB, paused 226us total 19.336ms
+11-30 04:25:56.706 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3362(152KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 957KB/1981KB, paused 167us total 5.158ms
+11-30 04:25:56.733 V/EmulatedCamera_Camera( 1146): getCameraInfo
+11-30 04:25:56.787 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3779(179KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 949KB/1973KB, paused 848us total 4.970ms
+11-30 04:25:56.815 I/art     ( 2179): Explicit concurrent mark sweep GC freed 16278(1034KB) AllocSpace objects, 3(48KB) LOS objects, 27% free, 10MB/14MB, paused 1.579ms total 89.430ms
+11-30 04:25:56.821 I/art     ( 1964): Background sticky concurrent mark sweep GC freed 14227(1143KB) AllocSpace objects, 1(16KB) LOS objects, 8% free, 11MB/12MB, paused 15.796ms total 52.105ms
+11-30 04:25:56.925 I/art     ( 1485): Explicit concurrent mark sweep GC freed 29840(1980KB) AllocSpace objects, 22(1143KB) LOS objects, 28% free, 9MB/13MB, paused 202us total 27.530ms
+11-30 04:25:56.961 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3236(145KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 954KB/1978KB, paused 147us total 7.138ms
+11-30 04:25:57.187 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3831(180KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 958KB/1982KB, paused 196us total 6.924ms
+11-30 04:25:57.220 I/art     ( 2179): Explicit concurrent mark sweep GC freed 27274(1393KB) AllocSpace objects, 8(128KB) LOS objects, 27% free, 10MB/14MB, paused 433us total 78.081ms
+11-30 04:25:57.334 I/art     ( 2179): Rejecting re-init on previously-failed class java.lang.Class<aiww>
+11-30 04:25:57.334 I/art     ( 2179): Rejecting re-init on previously-failed class java.lang.Class<aiww>
+11-30 04:25:57.348 I/art     ( 2100): Explicit concurrent mark sweep GC freed 4253(277KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 967KB/1991KB, paused 382us total 14.063ms
+11-30 04:25:58.036 I/art     ( 1485): Explicit concurrent mark sweep GC freed 41634(2MB) AllocSpace objects, 6(148KB) LOS objects, 28% free, 10MB/14MB, paused 2.230ms total 83.264ms
+11-30 04:25:59.028 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3800(182KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 960KB/1984KB, paused 4.811ms total 32.234ms
+11-30 04:25:59.200 I/art     ( 1485): Explicit concurrent mark sweep GC freed 53439(2MB) AllocSpace objects, 20(561KB) LOS objects, 28% free, 10MB/14MB, paused 7.363ms total 31.556ms
+11-30 04:25:59.602 V/EmulatedCamera_Camera( 1146): getCameraInfo
+11-30 04:26:00.266 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000004@DynamiteModulesC_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:00.266 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/data/com.google.android.gms/app_chimera/m/00000004/x86/DynamiteModulesC_GmsCore_prodlmp_alldpi_release.odex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:00.959 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000005@DynamiteModulesD_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000005/DynamiteModulesD_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:00.959 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/data/com.google.android.gms/app_chimera/m/00000005/x86/DynamiteModulesD_GmsCore_prodlmp_alldpi_release.odex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000005/DynamiteModulesD_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.041 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000001@GoogleCertificates_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000001/GoogleCertificates_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.041 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/data/com.google.android.gms/app_chimera/m/00000001/x86/GoogleCertificates_GmsCore_prodlmp_alldpi_release.odex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000001/GoogleCertificates_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.381 I/art     ( 2179): Note: end time exceeds epoch:
+11-30 04:26:01.382 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000001@GoogleCertificates_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000001/GoogleCertificates_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.382 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000000@DynamiteLoader_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000000/DynamiteLoader_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.382 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000004@DynamiteModulesC_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.382 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000003@DynamiteModulesB_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000003/DynamiteModulesB_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.382 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000002@DynamiteModulesA_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000002/DynamiteModulesA_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.382 I/art     ( 2179): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/x86/data@data@com.google.android.gms@app_chimera@m@00000005@DynamiteModulesD_GmsCore_prodlmp_alldpi_release.apk@classes.dex' for file location '/data/data/com.google.android.gms/app_chimera/m/00000005/DynamiteModulesD_GmsCore_prodlmp_alldpi_release.apk': Failed to open oat filename for reading: No such file or directory
+11-30 04:26:01.507 I/art     ( 1485): Explicit concurrent mark sweep GC freed 57382(2MB) AllocSpace objects, 3(184KB) LOS objects, 28% free, 10MB/14MB, paused 249us total 28.514ms
+11-30 04:26:07.427 I/art     ( 2100): Explicit concurrent mark sweep GC freed 2856(151KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 948KB/1972KB, paused 605us total 11.840ms
+11-30 04:26:07.451 V/EmulatedCamera_Camera( 1146): getCameraInfo
+11-30 04:26:07.914 I/art     ( 2179): Background sticky concurrent mark sweep GC freed 8272(661KB) AllocSpace objects, 13(208KB) LOS objects, 4% free, 14MB/15MB, paused 7.055ms total 19.454ms
+11-30 04:26:08.664 I/art     ( 2100): Explicit concurrent mark sweep GC freed 3517(153KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 945KB/1969KB, paused 221us total 7.474ms
+11-30 04:26:17.008 I/art     ( 1485): Explicit concurrent mark sweep GC freed 35692(1792KB) AllocSpace objects, 6(424KB) LOS objects, 28% free, 9MB/13MB, paused 319us total 38.789ms
+11-30 04:26:54.710 I/art     ( 1485): Explicit concurrent mark sweep GC freed 20487(1106KB) AllocSpace objects, 5(138KB) LOS objects, 28% free, 9MB/13MB, paused 396us total 35.540ms
+11-30 04:26:56.828 I/art     ( 2179): Explicit concurrent mark sweep GC freed 40563(2MB) AllocSpace objects, 19(302KB) LOS objects, 15% free, 21MB/25MB, paused 453us total 75.820ms
+11-30 04:28:47.012 I/art     ( 3271): Background partial concurrent mark sweep GC freed 2239(151KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 1890KB/3MB, paused 765us total 101.127ms
+11-30 04:29:05.298 I/art     ( 1485): Explicit concurrent mark sweep GC freed 33143(2MB) AllocSpace objects, 27(954KB) LOS objects, 27% free, 10MB/14MB, paused 601us total 85.301ms
+11-30 04:36:58.022 I/art     ( 3364): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:36:58.022 I/art     ( 3364): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:36:58.022 I/art     ( 3364): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession>
+11-30 04:36:58.106 I/art     ( 3364): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:36:58.106 I/art     ( 3364): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:36:58.642 I/art     ( 2179): Background sticky concurrent mark sweep GC freed 33018(2MB) AllocSpace objects, 1(16KB) LOS objects, 7% free, 23MB/25MB, paused 940us total 197.697ms
+11-30 04:36:59.121 I/art     ( 1485): Explicit concurrent mark sweep GC freed 23923(1411KB) AllocSpace objects, 7(294KB) LOS objects, 27% free, 10MB/14MB, paused 265us total 27.027ms
+11-30 04:36:59.440 I/art     ( 2743): Background partial concurrent mark sweep GC freed 34919(2MB) AllocSpace objects, 0(0B) LOS objects, 40% free, 5MB/8MB, paused 9.249ms total 169.159ms
+11-30 04:38:05.138 I/art     ( 1485): Explicit concurrent mark sweep GC freed 22553(1681KB) AllocSpace objects, 31(1755KB) LOS objects, 26% free, 10MB/14MB, paused 493us total 40.170ms
+11-30 04:38:09.553 I/art     ( 2611): WaitForGcToComplete blocked for 24.862ms for cause Background
+11-30 04:38:35.113 I/art     ( 1150): Background concurrent mark sweep GC freed 778(32KB) AllocSpace objects, 0(0B) LOS objects, 90% free, 111KB/1135KB, paused 5.645ms total 13.997ms
+11-30 04:38:35.222 V/EmulatedCamera_Camera( 1146): getCameraInfo
+11-30 04:38:35.250 V/EmulatedCamera_Camera( 1146): getCameraInfo
+11-30 04:38:35.281 V/EmulatedCamera_Camera( 1146): getCameraInfo
+11-30 04:38:35.281 V/EmulatedCamera_Camera( 1146): connectCamera
+11-30 04:38:35.617 V/EmulatedCamera_Camera( 1146): getCameraInfo
+11-30 04:38:35.619 V/EmulatedCamera_Camera( 1146): setParameters
+11-30 04:38:35.621 V/EmulatedCamera_Camera( 1146): setParameters
+11-30 04:38:35.621 V/EmulatedCamera_Camera( 1146): doStartPreview
+11-30 04:38:38.855 V/EmulatedCamera_Camera( 1146): cancelAutoFocus
+11-30 04:38:38.856 V/EmulatedCamera_Camera( 1146): doStopPreview
+11-30 04:38:38.857 V/EmulatedCamera_Camera( 1146): doStopPreview
+11-30 04:38:38.857 V/EmulatedCamera_Camera( 1146): doStopPreview
+11-30 04:38:38.857 V/EmulatedCamera_Camera( 1146): cancelPicture
+11-30 04:38:38.857 V/EmulatedCamera_Camera( 1146): releaseCamera
+11-30 04:38:38.857 V/EmulatedCamera_Camera( 1146): doStopPreview
+11-30 04:38:38.857 V/EmulatedCamera_Camera( 1146): closeCamera
+11-30 04:38:38.857 V/EmulatedCamera_Camera( 1146): doStopPreview
+11-30 04:38:40.861 I/art     ( 2743): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:38:40.869 I/art     ( 2743): Rejecting re-init on previously-failed class java.lang.Class<mgh>
+11-30 04:38:41.219 I/art     ( 2179): Explicit concurrent mark sweep GC freed 21856(1640KB) AllocSpace objects, 1(16KB) LOS objects, 14% free, 23MB/27MB, paused 425us total 180.877ms
+11-30 04:38:41.284 I/art     ( 1964): Background partial concurrent mark sweep GC freed 46832(2MB) AllocSpace objects, 1(16KB) LOS objects, 25% free, 11MB/15MB, paused 7.958ms total 296.661ms
+11-30 04:38:52.491 I/art     ( 2743): Background partial concurrent mark sweep GC freed 12264(872KB) AllocSpace objects, 2(316KB) LOS objects, 30% free, 8MB/12MB, paused 243us total 138.214ms
+11-30 04:38:52.588 I/art     ( 1485): Explicit concurrent mark sweep GC freed 25450(1928KB) AllocSpace objects, 32(1331KB) LOS objects, 26% free, 11MB/15MB, paused 289us total 29.044ms
+11-30 04:42:28.293 I/art     ( 1485): Explicit concurrent mark sweep GC freed 29677(1799KB) AllocSpace objects, 21(1194KB) LOS objects, 26% free, 10MB/14MB, paused 450us total 33.300ms
+11-30 04:47:18.030 I/art     ( 3634): Background partial concurrent mark sweep GC freed 1811(115KB) AllocSpace objects, 0(0B) LOS objects, 44% free, 1286KB/2MB, paused 63.176ms total 86.974ms
+11-30 04:47:20.774 I/art     ( 3634): Explicit concurrent mark sweep GC freed 1032(58KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1270KB/1782KB, paused 68us total 34.662ms
+11-30 04:47:20.785 I/art     ( 3634): Explicit concurrent mark sweep GC freed 166(7KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1263KB/1775KB, paused 54us total 9.727ms
+11-30 04:47:20.801 I/art     ( 3634): Explicit concurrent mark sweep GC freed 3(96B) AllocSpace objects, 0(0B) LOS objects, 28% free, 1263KB/1775KB, paused 61us total 4.952ms
+11-30 04:47:23.341 I/art     ( 1150): Explicit concurrent mark sweep GC freed 701(30KB) AllocSpace objects, 0(0B) LOS objects, 90% free, 110KB/1134KB, paused 34us total 3.328ms
+11-30 04:47:23.372 I/art     ( 1150): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 90% free, 110KB/1134KB, paused 38us total 25.602ms
+11-30 04:47:23.377 I/art     ( 1150): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 90% free, 110KB/1134KB, paused 34us total 4.097ms
+11-30 04:47:23.661 I/art     ( 3700): Background sticky concurrent mark sweep GC freed 3517(298KB) AllocSpace objects, 3(48KB) LOS objects, 37% free, 710KB/1134KB, paused 6.224ms total 15.427ms
+11-30 04:47:23.870 I/art     ( 3700): Background sticky concurrent mark sweep GC freed 622(177KB) AllocSpace objects, 6(117KB) LOS objects, 20% free, 1525KB/1924KB, paused 5.824ms total 10.521ms
+11-30 04:47:23.958 I/art     ( 3700): Background sticky concurrent mark sweep GC freed 744(252KB) AllocSpace objects, 14(302KB) LOS objects, 39% free, 1511KB/2MB, paused 5.912ms total 11.160ms
+11-30 04:48:00.447 I/art     ( 1485): Explicit concurrent mark sweep GC freed 21915(1367KB) AllocSpace objects, 18(843KB) LOS objects, 26% free, 11MB/15MB, paused 341us total 65.890ms
+11-30 04:48:06.834 I/art     ( 3700): Background sticky concurrent mark sweep GC freed 13807(744KB) AllocSpace objects, 7(567KB) LOS objects, 33% free, 2MB/4MB, paused 8.191ms total 43.343ms
+11-30 04:48:28.329 I/art     ( 1775): Background sticky concurrent mark sweep GC freed 2593(102KB) AllocSpace objects, 0(0B) LOS objects, 2% free, 8MB/9MB, paused 19.742ms total 95.330ms
+11-30 04:48:30.389 I/art     ( 1485): Explicit concurrent mark sweep GC freed 6780(376KB) AllocSpace objects, 0(0B) LOS objects, 26% free, 10MB/14MB, paused 497us total 26.079ms
+11-30 04:48:45.641 I/art     ( 1485): Explicit concurrent mark sweep GC freed 3762(193KB) AllocSpace objects, 0(0B) LOS objects, 26% free, 10MB/14MB, paused 630us total 43.305ms
+11-30 04:48:53.248 I/art     ( 2179): Explicit concurrent mark sweep GC freed 11860(547KB) AllocSpace objects, 1(16KB) LOS objects, 14% free, 23MB/27MB, paused 415us total 65.371ms
+11-30 04:48:53.309 I/art     ( 1964): Explicit concurrent mark sweep GC freed 60819(3MB) AllocSpace objects, 2(32KB) LOS objects, 25% free, 11MB/15MB, paused 515us total 57.817ms
