@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
 Created on 2021/06/01
+Modified on 2021/06/03
 
 @author: ZL Chen
 @Task: Develop a tool for log filtering
@@ -19,10 +20,31 @@ Usage (Java): java -jar logcat_parser.jar logcat_file.txt -i word1,word2,word3
 
 3. Send us a link to your Git repository with sources (and, in case of Java, also a jar file) on a publicly accessible service (GitHub, GitLab, Bitbucket).
 
+Function definition:
+h function -> -h prints out info about all the available switches
+	ex: 
+	python logcat_parser.py -h
+	logcat_parser.pyc -h
+	logcat_parser.exe -h
+s function -> -s prints out the time difference between lines containing “TEST STARTED” and “TEST FINISHED”
+	ex:
+	python logcat_parser.py logcat_file.txt -s
+	logcat_parser.pyc logcat_file.txt -s
+	logcat_parser.exe logcat_file.txt -s 
+i function -> -i <args,…> prints out lines containing all the provided arguments
+	ex:
+	python logcat_parser.py logcat_file.txt -i V/EmulatedCamera_Camera,I/art
+	logcat_parser.pyc logcat_file.txt -i V/EmulatedCamera_Camera,I/art
+	logcat_parser.exe logcat_file.txt -i V/EmulatedCamera_Camera,I/art
+e function -> -e <args,…> prints out all lines which don't contain any of the provided arguments
+	ex:
+	python logcat_parser.py logcat_file.txt -e V/EmulatedCamera_Camera
+	logcat_parser.pyc logcat_file.txt -e V/EmulatedCamera_Camera
+	logcat_parser.exe logcat_file.txt -e V/EmulatedCamera_Camera
+
 '''
 
 import sys
-from time import sleep
 
 class logcat_parser(object):
 	def open_logcat_file(self, filename):
@@ -38,15 +60,19 @@ class logcat_parser(object):
 	def s(self, filename):
 		s_info = self.open_logcat_file(filename)
 		for i in s_info:
-			# print(i.strip())
 			if 'TEST STARTED' in i:
-				start = i.strip('1. TEST STARTED: ').strip(' sec')[:4]
-				# print(start)
+				start_hour = i.split(' === TEST STARTED ===')[0].split('11-30 ')[1].strip(':')[:2]
+				start_min = i.split(' === TEST STARTED ===')[0].split('11-30 ')[1].strip(':')[3:5]
+				start_sec = i.split(' === TEST STARTED ===')[0].split('11-30 ')[1].strip(':')[6:]
+				print(start_hour, start_min, start_sec)
 			if 'TEST FINISHED' in i:
-				finish = i.strip('2. TEST FINISHED: ').strip(' sec')[:4]
-				# print(finish)
-		difference = str(float(finish) - float(start))
-		print('Time difference is:', difference)
+				finish_hour = i.split(' === TEST FINISHED ===')[0].split('11-30 ')[1].strip(':')[:2]
+				finish_min = i.split(' === TEST FINISHED ===')[0].split('11-30 ')[1].strip(':')[3:5]
+				finish_sec = i.split(' === TEST FINISHED ===')[0].split('11-30 ')[1].strip(':')[6:]				
+				print(finish_hour, finish_min, finish_sec)
+		difference_hour, difference_min, difference_sec = float(finish_hour) - float(start_hour), float(finish_min) - float(start_min), float(finish_sec) - float(start_sec)
+		hour, min, sec = str(round(difference_hour, 5)), str(round(difference_min, 5)), str(round(difference_sec, 5))
+		print('Time difference is: ' + hour + ' hours ' + min + ' mins ' + sec + ' secs.')
 
 	def i(self, filename, args):
 		i_info = self.open_logcat_file(filename)
