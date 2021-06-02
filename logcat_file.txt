@@ -1,0 +1,12 @@
+word1 test
+word2 test2
+word3 test1
+
+1. TEST STARTED: 2.0 sec
+
+word2
+word3 test4
+
+2. TEST FINISHED 5.0 sec
+
+word3 test1
