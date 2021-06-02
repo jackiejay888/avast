@@ -1,8 +1,8 @@
-Task: Develop a tool for log filtering
+Task: Develop a tool for log filtering (Under the task_1 folder)
 1. logcat_parser.py
 
 
-Task: Automate a sign up form
+Task: Automate a sign up form (Under the task_2 folder)
 
 1. avast_web_verification.py -> main program
 2. avast_web_verification.pyc -> compile 
