@@ -1,19 +1,33 @@
 # -*- coding: utf-8 -*-
 '''
 Created on 2021/06/01
+Modified on 2021/06/03
 
 @author: ZL Chen
 @Task: Automate a sign up form
 
 1.	Use form at https://demoqa.com/automation-practice-form
-2.	Using Java or Python and Selenium, create at least 5 automated tests that will test the form’s functionality (you can include more scenarios you’d like to test, but don’t have to implement them)
+2.	Using Java or Python and Selenium, create at least 5 automated tests that will test the form’s functionality 
+	(you can include more scenarios you’d like to test, but don’t have to implement them)
 3.	Send us a link to your Git repository with sources on a publicly accessible service (GitHub, GitLab, Bitbucket).
+
+Test Cases:
+test_01_feature
+test_02_functional_sendkey
+test_03_functional_gender_filed
+test_04_functional_hobbies_filed
+test_05_functional_state_city_filed
+
+Add more test cases:
+test_06_open_file -> Base on Select library and verify the open file button and function
+test_07_alert_verification -> By the is_alert_present and close_alert_and_get_its_text function and verify the alert and pop up action 
+test_08_excpetion_situation -> Verify the except situation, just like the field is required on the textbox, ex: required filed error
+test_09_api_verification -> Verify the ip address or hostname by the postman tool via load test
 
 '''
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -21,13 +35,15 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 from time import sleep
 from os import system
-import re, unittest, configparser, datetime
+from HTMLTestRunner import *
+import unittest, configparser, datetime
 
 config = configparser.ConfigParser()
 config.read('avast_web_verification.ini')
 date_current_time = str(datetime.date.today())
 
 class avast_web_verification(unittest.TestCase):
+	@classmethod
 	def setUp(self):
 		options = webdriver.ChromeOptions() 
 		options.add_argument("--incognito") # incognito
@@ -38,7 +54,7 @@ class avast_web_verification(unittest.TestCase):
 		self.verificationErrors = []
 		self.accept_next_alert = True
 		self.driver.get("https://demoqa.com/automation-practice-form")
-	
+
 	def test_01_feature(self):
 		driver = self.driver
 		self.is_element_present(By.XPATH, "//div[@id='app']/div/div/div[2]/div[2]/div/h5")
@@ -118,6 +134,14 @@ class avast_web_verification(unittest.TestCase):
 		self.driver.save_screenshot('test_05_' + date_current_time + '.png')
 		self.click(By.ID, "closeLargeModal")
 
+	# def test_06_open_file(self) Base on Select library
+
+	# def test_07_alert_verification(self) By is_alert_present and close_alert_and_get_its_text function
+
+	# def test_08_excpetion_situation(self) EX: required filed error
+
+	# def test_09_api_verification(self) Load test by postman. ex: https://demoqa.com/automation-practice-form
+
 	def functional_precondition_action(self):
 		driver = self.driver
 		driver.find_element_by_id("firstName").clear()
@@ -170,11 +194,16 @@ class avast_web_verification(unittest.TestCase):
 			return alert_text
 		finally: 
 			self.accept_next_alert = True
-	
+
+	@classmethod
 	def tearDown(self):
 		self.driver.quit()
-		self.assertEqual([], self.verificationErrors)
 
 if __name__ == "__main__":
 	system('del *.png')
-	unittest.main()
+	system('del *.html')
+	report_dir = r'test_report_' + date_current_time + r'.html'
+	re_open = open(report_dir,'wb')
+	suite = unittest.TestLoader().loadTestsFromTestCase(avast_web_verification)
+	runner = HTMLTestRunner(stream = re_open, title = u'Avast Interview Exam', description = u'Test Report by ZL.')
+	runner.run(suite)

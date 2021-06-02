@@ -1,0 +1,25 @@
+Task: Develop a tool for log filtering
+1. logcat_parser.py
+
+
+Task: Automate a sign up form
+
+1. avast_web_verification.py -> main program
+2. avast_web_verification.pyc -> compile 
+3. avast_web_verification.ini -> config file
+4. avast_web_verification.exe -> for windows environment
+5. PNG file is screenshot file
+6. HTML file is test report by unittest frame
+
+Test Cases:
+test_01_feature
+test_02_functional_sendkey
+test_03_functional_gender_filed
+test_04_functional_hobbies_filed
+test_05_functional_state_city_filed
+
+Add more test cases:
+test_06_open_file -> Base on Select library and verify the open file button and function
+test_07_alert_verification -> By the is_alert_present and close_alert_and_get_its_text function and verify the alert and pop up action 
+test_08_excpetion_situation -> Verify the except situation, just like the field is required on the textbox, ex: required filed error
+test_09_api_verification -> Verify the ip address or hostname by the postman tool via load test
